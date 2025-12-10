@@ -1,25 +1,26 @@
-📘 Exercício: Validação de Formulário (HTML + CSS + JavaScript)
+# **📘 Exercício – Validação de Formulário**
+Curso: Front-End Engineer – EBAC
 
-Este repositório contém a atividade prática do módulo de DOM e Manipulação de Elementos do curso de Front-End da EBAC.
+Este repositório contém o exercício prático do módulo de DOM – Document Object Model, cujo objetivo é aplicar os conceitos de manipulação de elementos, eventos e validação utilizando JavaScript.
+___
+# **🎯 Objetivo da atividade**
 
-📝 Objetivo do exercício
+Desenvolver um formulário simples com dois campos numéricos e criar uma validação que verifica se o valor do Campo B é maior que o valor do Campo A.
+Com base na comparação, o usuário deve visualizar uma mensagem informando se o formulário é válido ou não.
+___
+# **✔️ Requisitos atendidos
 
-Criar um pequeno formulário com dois campos numéricos e validar, via JavaScript, se o valor do Campo B é maior que o valor do Campo A.
-A validação deve exibir uma mensagem positiva quando o formulário for válido e uma mensagem negativa quando for inválido.
+Estrutura HTML contendo:
 
-✔️ Funcionalidades implementadas
+Campo A (input numérico)
 
-Formulário com dois inputs numéricos: Campo A e Campo B
+Campo B (input numérico)
 
-Botão para envio do formulário
+Botão de envio
 
-Validação usando JavaScript
+Mensagens dinâmicas de sucesso ou erro utilizando DOM
 
-Exibição de mensagem de sucesso quando B > A
-
-Exibição de mensagem de erro quando B ≤ A
-
-Arquivos separados em:
+Separação correta dos arquivos:
 
 index.html
 
@@ -27,28 +28,30 @@ style.css
 
 script.js
 
-🖥️ Tecnologias utilizadas
+Lógica de validação implementada em JavaScript
 
-HTML5
+Projeto enviado na branch exercicio_html_js, conforme solicitado na atividade
+___
+# **🛠️ Tecnologias utilizadas
 
-CSS3
+HTML5 – estrutura do formulário
 
-JavaScript (DOM)
+CSS3 – estilização simples da interface
 
-🚀 Como executar o projeto
+JavaScript – manipulação do DOM e validação dos campos
+___
+# **🚀 Como executar o projeto
 
-Baixe ou clone este repositório
+Clone este repositório ou faça o download dos arquivos.
 
-Abra o arquivo index.html no navegador
+Abra o arquivo index.html em qualquer navegador.
 
-Digite os valores dos campos e clique em Validar
+Preencha os dois campos numéricos e clique no botão de validar.
 
-🔗 Branch da atividade
+A mensagem será exibida automaticamente abaixo do formulário.
+___
+# **🌿 Branch da atividade
 
-A atividade foi enviada na branch:
+A entrega oficial da EBAC está localizada na branch:
 
 exercicio_html_js
-
-📚 Sobre o curso
-
-Atividade desenvolvida para o módulo de DOM e JavaScript do curso Front-End Engineer da EBAC.
